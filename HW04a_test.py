@@ -11,10 +11,10 @@ class TestGitHub(unittest.TestCase):
         self.assertNotEqual(getrepo('aljhdfjabfbfb'), True)
 
     def testGithub3(self):
-        self.assertEqual(getrepo('GautamP2393'), False)
+        self.assertEqual(getrepo('Pranavzagade'), False)
 
     def testGithub4(self):
         self.assertNotEqual(getrepo('GautamP2393'), True)
 
     def testGithub5(self):
-        self.assertEqual(getrepo('vaibhavvashisht16'), True)
+        self.assertEqual(getrepo('Mandalorean'), True)
