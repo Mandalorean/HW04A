@@ -1,4 +1,3 @@
-# By Vaibhav
 import requests
 import json
 
